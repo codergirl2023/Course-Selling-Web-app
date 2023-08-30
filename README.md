@@ -11,6 +11,7 @@ Welcome to the Course Selling App! This Next.js project allows users to explore 
 - **Middleware**: Custom middleware to enhance the functionality of the application.
 - **Cookie-Based Authentication**: Implements user authentication using JSON Web Tokens (JWT) and cookies for a secure login experience.
 - **MongoDB**: A NoSQL database used to store and manage course and user data.
+- **Typescript**: To avoid any type errors which can lead to project breakage.
 
 ## Features
 
