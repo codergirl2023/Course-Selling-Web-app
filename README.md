@@ -26,11 +26,6 @@ Welcome to the Course Selling App! This Next.js project allows users to explore 
 - Admins can edit and add new courses to the platform.
 - Course details include title, instructor, description, and more.
 
-### Course Listings
-
-- Browse through available courses on the platform.
-- View course details and information about each course.
-
 ### Middleware for Authorization
 
 - Custom middleware ensures proper authorization for specific actions.
