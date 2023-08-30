@@ -6,7 +6,7 @@ export async function middleware(request: NextRequest) {
 
     let cookie = request.cookies.get('courseraJWT');
 
-    if (!cookie) {
+    if (!cookie) {   //if courseraJWT not found on client and user does not have access to addcourse and /course/:courseId that means user is not logged in, redirect to sign in
         return NextResponse.redirect(new URL('/signin', request.url));
     }
 }
